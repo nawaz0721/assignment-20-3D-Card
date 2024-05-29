@@ -96,15 +96,6 @@ header {
     opacity: 1;
 }
 
-.container .card .content h2{
-    position: absolute;
-    top: -60px;
-    right: 30px;
-    font-size: 8em;
-    color: #000;
-    pointer-events: none;
-}
-
 .container .card .content h1{
     font-size: 1.8em;
     color: #000;

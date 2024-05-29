@@ -99,7 +99,6 @@ function updateDesc(ele) {
     products[id].description = desc;
     var card = ele.parentNode.parentNode;
     card.innerHTML = `<div class="content">
-        <h2>${parseInt(id) + 1}</h2>
         <h1>${products[id].name}</h1>
         <span>${products[id].category}</span>
         <h4>$${products[id].price}</h4>
