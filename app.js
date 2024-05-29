@@ -63,7 +63,7 @@ var products = [
     var ele = `<div class="container" id="${ind}">
     <div class="card" style="background-image: url(${data.image});">
     <div class="content">
-        <h1>${products[id].name}</h1>
+        <h1>${data.name}</h1>
         <span>${data.category}</span>
         <h4>$${data.price}</h4>
         <p>${data.description}</p>
